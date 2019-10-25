@@ -1,0 +1,11 @@
+word,count
+film,2652
+movie,2543
+story,2136
+company,2064
+world,2005
+season,1958
+best,1760
+book,1743
+series,1649
+black,1610

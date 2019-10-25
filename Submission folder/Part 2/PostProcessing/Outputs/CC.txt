@@ -1,0 +1,11 @@
+word,count
+marvel,212581
+season,202961
+marvels,79781
+punisher,70624
+trailer,68116
+fantastic,66530
+four,61148
+spiderman,51606
+earths,47955
+mightiest,47955

@@ -1,0 +1,11 @@
+word,count
+avengers|marvel,305
+endgame|marvel,249
+marvel|movies,216
+marvel|movie,214
+legends|marvel,166
+flyingtreasures|marvel,143
+figure|marvel,128
+episode|season,117
+episode|season,117
+marvel|via,111

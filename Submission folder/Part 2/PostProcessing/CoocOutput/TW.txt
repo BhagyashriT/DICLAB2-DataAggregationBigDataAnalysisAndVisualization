@@ -1,0 +1,11 @@
+word,count
+star|wars,4113
+game|thrones,3847
+game|watch,498
+game|season,447
+thrones|watch,433
+season|thrones,425
+avengers|marvel,305
+movies|watch,264
+marvel|movies,252
+endgame|marvel,249

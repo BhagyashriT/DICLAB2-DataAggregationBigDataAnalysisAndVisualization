@@ -1,0 +1,13 @@
+hadoop jar /usr/lib/hadoop-mapreduce/hadoop-streaming.jar -files gs://buckbeak/scripts/word-count/mapper.py,gs://buckbeak/scripts/word-count/reducer.py -mapper 'python mapper.py' -reducer 'python reducer.py' -input gs://buckbeak_input/Lab2/data/CC/ -output gs://buckbeak_output/word-count/CC1
+
+hadoop jar /usr/lib/hadoop-mapreduce/hadoop-streaming.jar -files gs://buckbeak/scripts/word-count/mapper.py,gs://buckbeak/scripts/word-count/reducer.py -mapper 'python mapper.py' -reducer 'python reducer.py' -input gs://buckbeak_input/Lab2/data/NYT/ -output gs://buckbeak_output/word-count/NYT
+
+hadoop jar /usr/lib/hadoop-mapreduce/hadoop-streaming.jar -files gs://buckbeak/scripts/word-count/mapper.py,gs://buckbeak/scripts/word-count/reducer.py -mapper 'python mapper.py' -reducer 'python reducer.py' -input gs://buckbeak_input/Lab2/data/TW/ -output gs://buckbeak_output/word-count/TW
+
+
+
+hadoop jar /usr/lib/hadoop-mapreduce/hadoop-streaming.jar -files gs://buckbeak/scripts/word-co-occurrence/TW/pair_mapper.py,gs://buckbeak/scripts/word-co-occurrence/TW/pair_reducer.py -mapper 'python pair_mapper.py' -reducer 'python pair_reducer.py' -input gs://buckbeak_input/Lab2/data/TW/ -output gs://buckbeak_output/word-co-occurrence/TW
+
+hadoop jar /usr/lib/hadoop-mapreduce/hadoop-streaming.jar -files gs://buckbeak/scripts/word-co-occurrence/CC/pair_mapper.py,gs://buckbeak/scripts/word-co-occurrence/CC/pair_reducer.py -mapper 'python pair_mapper.py' -reducer 'python pair_reducer.py' -input gs://buckbeak_input/Lab2/data/CC/ -output gs://buckbeak_output/word-co-occurrence/CC
+
+hadoop jar /usr/lib/hadoop-mapreduce/hadoop-streaming.jar -files gs://buckbeak/scripts/word-co-occurrence/NYT/pair_mapper.py,gs://buckbeak/scripts/word-co-occurrence/NYT/pair_reducer.py -mapper 'python pair_mapper.py' -reducer 'python pair_reducer.py' -input gs://buckbeak_input/Lab2/data/NYT/ -output gs://buckbeak_output/word-co-occurrence/NYT

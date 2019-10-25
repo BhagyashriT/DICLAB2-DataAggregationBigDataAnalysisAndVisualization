@@ -1,0 +1,11 @@
+word,count
+game,4248
+star,4051
+wars,3878
+thrones,3700
+disney,3403
+marvel,3051
+movies,2628
+like,1347
+drama,1107
+watch,1025

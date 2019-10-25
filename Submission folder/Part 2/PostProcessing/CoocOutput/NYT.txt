@@ -1,0 +1,11 @@
+word,count
+film|movie,793
+best|film,467
+black|movie,390
+best|movie,346
+black|film,331
+season|series,330
+black|panther,307
+one|story,301
+black|book,289
+best|picture,284
