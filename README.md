@@ -1,0 +1,2 @@
+# DIC-LAB2-DATA-AGGREGATION-BIG-DATA-ANALYSIS-AND-VISUALIZATION
+Collected data about from three sources, one opinion-based social media in twitter, research data in New York Times, and the third is the common crawl data for the same topic or key phrase, and from similar time periods. Processed the three data sets collected individually using classical big data methods like Map Reduce in Google Dataproc Clusters. And then compared the outcomes using popular visualization methods in tableau.
